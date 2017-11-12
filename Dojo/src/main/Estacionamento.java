@@ -31,4 +31,16 @@ public class Estacionamento {
 		return retorno;
 	}
 	
+	public void estacionaTudo(Carro...lista) {
+		for (Carro carro : lista) {
+			estaciona(carro);
+		}
+		
+	}
+	
+	public void estacionaTudo2(Carro[] lista) {
+		for (Carro carro : lista) {
+			estaciona(carro);
+		}
+	}
 }
